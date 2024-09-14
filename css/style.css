@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #8b8f8e;
+  --primary-color: #71807c;
 }
 
 * {
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #bca2d5;
+  background-color: #a38eb6;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -84,9 +84,9 @@ button:focus {
 
 /* button */
 .btn {
-  -moz-box-shadow: 0px 10px 14px -7px #11ae65;
-  -webkit-box-shadow: 0px 10px 14px -7px #17c167;
-  box-shadow: 0px 10px 14px -7px #0db22b;
+  -moz-box-shadow: 0px 10px 14px -7px #11ae84;
+  -webkit-box-shadow: 0px 10px 14px -7px #17c19c;
+  box-shadow: 0px 10px 14px -7px #397b95;
   background: -webkit-gradient(
     linear,
     left top,

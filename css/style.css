@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #5fbaa7;
+  --primary-color: #8b8f8e;
 }
 
 * {
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #854444;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -84,19 +84,19 @@ button:focus {
 
 /* button */
 .btn {
-  -moz-box-shadow: 0px 10px 14px -7px #276873;
-  -webkit-box-shadow: 0px 10px 14px -7px #276873;
-  box-shadow: 0px 10px 14px -7px #276873;
+  -moz-box-shadow: 0px 10px 14px -7px #11ae65;
+  -webkit-box-shadow: 0px 10px 14px -7px #17c167;
+  box-shadow: 0px 10px 14px -7px #0db22b;
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    color-stop(0.05, #599bb3),
-    color-stop(1, #408c99)
+    color-stop(0.05, #04d275),
+    color-stop(1, #11b458)
   );
   background: -moz-linear-gradient(center top, #599bb3 5%, #408c99 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
-  background-color: #599bb3;
+  background-color: #0d9e27;
   -webkit-border-top-left-radius: 8px;
   -moz-border-radius-topleft: 8px;
   border-top-left-radius: 8px;
@@ -111,7 +111,7 @@ button:focus {
   border-bottom-left-radius: 8px;
   text-indent: 0;
   display: inline-block;
-  color: #ffffff;
+  color: #5b218e;
   font-family: arial;
   font-size: 15px;
   font-weight: bold;
@@ -128,12 +128,12 @@ button:focus {
     linear,
     left top,
     left bottom,
-    color-stop(0.05, #408c99),
-    color-stop(1, #599bb3)
+    color-stop(0.05, #909495),
+    color-stop(1, #a4a8a9)
   );
-  background: -moz-linear-gradient(center top, #408c99 5%, #599bb3 100%);
+  background: -moz-linear-gradient(center top, #414099 5%, #6659b3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
-  background-color: #408c99;
+  background-color: #5c4099;
 }
 .btn:active {
   position: relative;
